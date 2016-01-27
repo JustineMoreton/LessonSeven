@@ -96,4 +96,7 @@
     	<array>
     		<string>Allow GPS</string>
     	</array>
+    </gap:config-file>
+    <gap:config-file platform="android" parent="/manifest" mode="add" xmlns:android="http://schemas.android.com/apk/res/android">
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
     </gap:config-file></widget>
