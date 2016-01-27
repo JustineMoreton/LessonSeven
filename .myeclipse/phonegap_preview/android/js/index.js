@@ -77,5 +77,5 @@ function geo(){
               'message: ' + error.message + '\n');
     }
 
-    navigator.geolocation.getCurrentPosition(onSuccess, onError, {timeout: 10000, enableHighAccuracy: true});
+    navigator.geolocation.getCurrentPosition(onSuccess, onError, {timeout: 20000, enableHighAccuracy: true});
 }
